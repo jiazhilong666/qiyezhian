@@ -1,0 +1,345 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    list-style: none}
+body{
+    overflow-x:hidden;
+}
+.header{
+    width: 100%;
+    height: 52px;
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+.header .left{
+    width: 480px;
+    height: 100%;
+}
+.header .left a{
+    font-size: 12px;
+    text-align: center;
+    line-height: 56px;
+    margin-left: 1px;
+    color: #fff;
+    display: block;
+    float: left;
+    width: 48px;
+    height: 56px;
+}
+.header .left a:hover{
+    color: #e0e0e0;
+}
+
+.header .left a:nth-child(11){
+    width: 80px;
+}
+.header span{
+    font-size: 12px;
+    text-align: center;
+    line-height: 56px;
+    margin-left: -1px;
+    margin-right: -8px;
+    color: #565656;
+    display: block;
+    float: left;
+}
+.header .left a i{
+    font-size: 16px;
+    margin-right: 6px;
+    color: #fff;
+}
+.header .right{
+    width: 240px;
+    height: 100%;
+    padding: 20px 12px;
+}
+.header .right a{
+    font-size: 12px;
+    text-align: center;
+    line-height: 56px;
+    color: #fff;
+    display: block;
+    float: left;
+    width: 80px;
+    height: 56px;
+}
+.header .right a:hover{
+    color: #e0e0e0;
+}
+.header .right a:nth-child(2){
+    background: #fff;
+    color: #000;
+}
+.header1{
+    width: 100%;
+    height: 80px;
+}
+.header1 img{
+    display: block;
+    margin: 20px auto;
+}
+.header1 .sousuo{
+    width: 157px;
+    height: 40px;
+    border: 1px solid #e0e0e0;
+    margin-top: -61px;
+    margin-right: 4px;
+    float: right;
+
+}
+.header1 .sousuo input{
+    width: 116px;
+    height: 40px;
+    border:0;
+}
+.header1 .sousuo a i{
+    font-size: 20px;
+    color: #000;
+    line-height: 40px;
+    margin-right: 10px;
+    display: block;
+    float: right;
+}
+.nav{
+    width: 384px;
+    height: 52px;
+    margin: -25px auto;
+    background: #fff;
+}
+.nav a{
+    font-size: 12px;
+    text-align: center;
+    line-height: 52px;
+    color: #000;
+    display: block;
+    float: left;
+    width:75px;
+    height: 56px;
+}
+.nav a:hover{
+    color: #e0e0e0;
+}
+.pic a img{
+    display: block;
+    margin: 40px auto;
+}
+.mainleft{
+    width: 632px;
+    height: 1240px;
+    float: left;
+    margin-top: -10px;
+    margin-left: 28px;
+}
+.mainleft span{
+    display: block;
+    font-size: 12px;
+    margin-top: 8px;
+}
+.mainleft p{
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.mainleft .top img{
+    transition: 0.8s;
+}
+.mainleft .top img:hover{
+
+    box-shadow: 0 15px 15px rgba(75, 75, 75, 0.1);
+    transform: scale(0.95, 0.95);
+}
+.mainleft .bottom img{
+    margin-top: 40px;
+    transition: 0.8s;
+}
+.mainleft .bottom img:hover{
+
+    box-shadow: 0 15px 15px rgba(75, 75, 75, 0.1);
+    transform: scale(0.95, 0.95);
+}
+.mainright{
+    width: 632px;
+    height: 1240px;
+    float: right;
+    margin-top: -10px;
+    margin-right: 28px;
+}
+.mainright span{
+    display: block;
+    font-size: 12px;
+    margin-top: 8px;
+}
+.mainright p{
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.mainright .top img{
+    margin-top: 40px;
+    transition: 0.8s;
+}
+.mainright .top img:hover{
+
+    box-shadow: 0 15px 15px rgba(75, 75, 75, 0.1);
+    transform: scale(0.95, 0.95);
+}
+.mainright .bottom img{
+    transition: 0.8s;
+}
+.mainright .bottom img:hover{
+
+    box-shadow: 0 15px 15px rgba(75, 75, 75, 0.1);
+    transform: scale(0.95, 0.95);
+}
+.footer{
+    width: 100%;
+    height: 407px;
+    background: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+.footer .zuo a:hover{
+    color: #e0e0e0;
+}
+.footer .zuo{
+    width: 300px;
+    height: 322px;
+}
+.footer .zuo h1{
+    font-weight: 400;
+    font-size: 16px;
+    /*margin-top: 6px;*/
+}
+.footer .zuo h2{
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 30px;
+}
+.footer .zuo h2 a{
+    color: #000;
+}
+.footer .zuo h3{
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 30px;
+}
+.footer .zuo select{
+    width: 273px;
+    height: 40px;
+    border: 0;
+    font-weight: 400;
+    font-size: 14px;
+    border: 1px solid #e0e0e0;
+    margin-top: 20px;
+}
+.footer .zuo ul{
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 30px;
+    line-height: 17px;
+}
+.footer .zuo ul a{
+    color: #000;
+}
+.footer .zuo ul a img{
+    margin-right: 2px;
+}
+.footer .zhong{
+    width: 300px;
+    height: 234px;
+}
+.footer .zhong a{
+    font-weight: 400;
+    font-size: 12px;
+    /*margin-top: 30px;*/
+    line-height: 36px;
+    color: #000;
+    display: block;
+}
+.footer .zhong a:hover{
+    color: #e0e0e0;
+}
+.footer .you{
+    width: 300px;
+    height: 357px;
+}
+.footer .you h1{
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 21px;
+}
+.footer .you h2{
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 30px;
+}
+.footer .you .email{
+    width: 206px;
+    height: 38px;
+    border: 1px solid #e0e0e0;
+    float: left;
+    margin-top: 20px;
+    background: #fff;
+}
+.footer .you .email i{
+    font-size: 25px;
+    line-height: 38px;
+    display: block;
+    float: left;
+    margin-left: 10px;
+}
+.footer .you .email input{
+    width: 145px;
+    height: 38px;
+    border: 0;
+    float: left;
+    margin-left: 10px;
+}
+.footer .you .queding{
+    width: 92px;
+    height: 40px;
+    background: #9a9a9a;
+    float: left;
+    text-align: center;
+    margin-top: 20px;
+    transition: background 1s;
+}
+.footer .you .queding:hover{
+    background: #e0e0e0;
+
+}
+.footer .you .queding a{
+    font-size: 12px;
+    line-height: 40px;
+    color: #fff;
+}
+.footer .you p{
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 110px;
+}
+.footer .you span{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #e4e4e4;
+    margin-top: 20px;
+    display: block;
+    background: #fff;
+}
+.footer .you span:hover{
+    background: #e0e0e0;
+}
+.footer .you span i{
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+    margin-left: 11px;
+    color: #000;
+}

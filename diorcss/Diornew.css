@@ -1,0 +1,508 @@
+*{font-style: normal;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    list-style: none}
+body{
+    overflow-x:hidden;
+}
+.header{
+    width: 100%;
+    height: 52px;
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+.header .left{
+    width: 480px;
+    height: 100%;
+}
+.header .left a{
+    font-size: 12px;
+    text-align: center;
+    line-height: 56px;
+    margin-left: 1px;
+    color: #fff;
+    display: block;
+    float: left;
+    width: 48px;
+    height: 56px;
+}
+.header .left a:hover{
+    color: #e0e0e0;
+}
+.header .left a:nth-child(2){
+    background: #fff;
+    color: #000;
+}
+.header .left a:nth-child(11){
+    width: 80px;
+}
+.header span{
+    font-size: 12px;
+    text-align: center;
+    line-height: 56px;
+    margin-left: -1px;
+    margin-right: -8px;
+    color: #565656;
+    display: block;
+    float: left;
+}
+.header .left a i{
+    font-size: 16px;
+    margin-right: 6px;
+    color: #fff;
+}
+.header .right{
+    width: 230px;
+    height: 100%;
+    padding: 20px 12px;
+}
+.header .right a{
+    font-size: 12px;
+    text-align: center;
+    line-height: 56px;
+    margin-left: 18px;
+    color: #fff;
+}
+.header .right a:hover{
+    color: #e0e0e0;
+}
+.header1{
+    width: 100%;
+    height: 80px;
+
+}
+.header1 a i{
+    font-size: 110px;
+    line-height: 80px;
+    text-align: center;
+    color: #000;
+    display: block;
+}
+.header1 .sousuo{
+    width: 157px;
+    height: 40px;
+    border: 1px solid #e0e0e0;
+    margin-top: -61px;
+    margin-right: 4px;
+    float: right;
+}
+.header1 .sousuo input{
+    width: 116px;
+    height: 40px;
+    border:0;
+}
+.header1 .sousuo a i{
+    font-size: 20px;
+    color: #000;
+    line-height: 40px;
+    margin-right: 10px;
+    display: block;
+    float: right;
+}
+.nav{
+    width: 100%;
+    height: 52px;
+    margin: 0 auto;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav a{
+    font-size: 12px;
+    text-align: center;
+    line-height: 56px;
+    margin-left: 4px;
+    color: #000;
+    display: block;
+    float: left;
+    width: 4%;
+    height: 56px;
+}
+.nav a:hover .box{
+    display: block;
+}
+.nav a .box{
+    width: 1349px;
+    height: 700px;
+    position: absolute;
+    left: -440px;
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    margin-top: 30px;
+    display: none;
+}
+.nav a .box .xiachui{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.nav a .box .xiachui .left{
+    width: 25%;
+    height: 100%;
+  margin-left: -75px;
+}
+.nav a .box .xiachui .left p{
+    font-size: 18px;
+}
+.nav a .box .xiachui .left ul{
+    font-size: 12px;
+    line-height: 21px;
+    margin-top: 10px;
+    font-weight: 300;
+}
+.nav a .box .xiachui .middle1{
+    width: 25%;
+    height: 100%;
+    margin-left: -190px;
+}
+.nav a .box .xiachui .middle1 p{
+    font-size: 18px;
+}
+.nav a .box .xiachui .middle1 ul{
+    font-size: 12px;
+    line-height: 21px;
+    margin-top: 10px;
+    font-weight: 300;
+}
+.nav a .box .xiachui .middle2{
+    width: 25%;
+    height: 100%;
+    margin-left: -190px;
+}
+.nav a .box .xiachui .middle2 p{
+    font-size: 18px;
+}
+.nav a .box .xiachui .middle2 ul{
+    font-size: 12px;
+    line-height: 21px;
+    margin-top: 10px;
+    font-weight: 300;
+}
+.nav a .box .xiachui .right{
+    width: 25%;
+    height: 100%;
+    margin-left: -190px;
+}
+.nav a .box .xiachui .right p{
+    font-size: 18px;
+}
+.nav a .box .xiachui .right ul{
+    font-size: 12px;
+    line-height: 21px;
+    margin-top: 10px;
+    font-weight: 300;
+}
+.nav a .box .down{
+    width: 100%;
+    overflow: hidden;
+
+}
+.nav a .box .down .left{
+    width: 25%;
+    height: 312px;
+    margin-left: 7%;
+    float: left;
+    border: 1px solid #e0e0e0;
+    overflow: hidden;
+}
+.nav a .box .down .left p{
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 14px;
+    margin-top: 15px;
+    margin-left: 4px;
+}
+.nav a .box .down .left span{
+    color: #000;
+    float: unset;
+}
+
+.nav a .box .down .middle{
+    width: 25%;
+    height: 312px;
+    margin-left: 5%;
+    float: left;
+    border: 1px solid #e0e0e0;
+    overflow: hidden;
+}
+.nav a .box .down .middle p{
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 14px;
+    margin-top: 15px;
+    margin-left: 4px;
+}
+.nav a .box .down .middle span{
+    color: #000;
+}
+.nav a .box .down .right{
+    width: 25%;
+    height: 312px;
+    margin-left: 5%;
+    float: left;
+    border: 1px solid #e0e0e0;
+    overflow: hidden;
+}
+.nav a .box .down .right img{
+    margin-top: 52px;
+}
+.nav a .box .down .right span{
+    color: #000;
+}
+/*.nav a:hover{*/
+    /*color: #e0e0e0;*/
+/*}*/
+/*.nav a:nth-child(8){*/
+/*width: 60px;*/
+/*}*/
+.nav span{
+    font-size: 12px;
+    text-align: center;
+    line-height: 56px;
+    margin-right: 9px;
+    color: #e0e0e0;
+    display: block;
+    float: left;
+}
+.jindu{
+    width: 1309px;
+    height: 50px;
+    margin: 4px auto;
+    line-height: 50px;
+}
+.jindu a{
+    font-size: 12px;
+    line-height: 50px;
+    text-align: center;
+    color: #000;
+    margin-right: 10px;
+    font-weight: 300;
+}
+.jindu span{
+    font-size: 12px;
+    line-height: 50px;
+    text-align: center;
+    color: #000;
+    font-weight: 300;
+}
+.pic img{
+    margin:4px auto;
+    display: block;
+}
+h6{
+    font-size: 40px;
+    text-align: center;
+    font-weight: 400;
+}
+.tiao{
+    width: 1309px;
+    font-size: 20px;
+    margin: 50px auto;
+}
+.tiao1{
+    width: 1309px;
+    font-size: 20px;
+    margin: 50px auto;
+    /*text-align: left;*/
+}
+.tiao22{
+    width: 1309px;
+    font-size: 20px;
+    margin: 500px auto auto;
+
+}
+.tiao3{
+    width: 1309px;
+    font-size: 20px;
+    margin: 50px auto;
+}
+.tiao4{
+    width: 1309px;
+    font-size: 20px;
+    margin: 50px auto;
+}
+.sectionall{
+    width: 1310px;
+    height: 950px;
+    margin: 18px auto;
+}
+.sectionall .section{
+    width: 410px;
+    height: 430px;
+    margin-right: 40px;
+    margin-bottom: 27px;
+    float: left;
+    text-transform: uppercase;
+}
+.sectionall .section img{
+    transition: 0.8s;
+}
+.sectionall .section img:hover{
+
+    box-shadow: 0 15px 15px rgba(75, 75, 75, 0.1);
+    transform: scale(0.95, 0.95);
+}
+.sectionall .section:nth-child(3n){
+    margin-right: 0px;
+}
+.sectionall .section img{
+    border:1px solid #e0e0e0;
+}
+.sectionall .section h5{
+    font-weight: 400;
+    font-size: 13px;
+    margin-top: 17px;
+}
+.footer{
+    width: 100%;
+    height: 407px;
+    background: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer .zuo a:hover{
+    color: #e0e0e0;
+}
+.footer .zuo{
+    width: 300px;
+    height: 322px;
+}
+.footer .zuo h1{
+    font-weight: 400;
+    font-size: 16px;
+    /*margin-top: 6px;*/
+}
+.footer .zuo h2{
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 30px;
+}
+.footer .zuo h2 a{
+    color: #000;
+}
+.footer .zuo h3{
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 30px;
+}
+.footer .zuo select{
+    width: 273px;
+    height: 40px;
+    border: 0;
+    font-weight: 400;
+    font-size: 14px;
+    border: 1px solid #e0e0e0;
+    margin-top: 20px;
+}
+.footer .zuo ul{
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 30px;
+    line-height: 17px;
+}
+.footer .zuo ul a{
+    color: #000;
+}
+.footer .zuo ul a img{
+    margin-right: 2px;
+}
+.footer .zhong{
+    width: 300px;
+    height: 234px;
+}
+.footer .zhong a{
+    font-weight: 400;
+    font-size: 12px;
+    /*margin-top: 30px;*/
+    line-height: 36px;
+    color: #000;
+    display: block;
+}
+.footer .zhong a:hover{
+    color: #e0e0e0;
+}
+.footer .you{
+    width: 300px;
+    height: 357px;
+}
+.footer .you h1{
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 21px;
+}
+.footer .you h2{
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 30px;
+}
+.footer .you .email{
+    width: 206px;
+    height: 38px;
+    border: 1px solid #e0e0e0;
+    float: left;
+    margin-top: 20px;
+    background: #fff;
+}
+.footer .you .email i{
+    font-size: 25px;
+    line-height: 38px;
+    display: block;
+    float: left;
+    margin-left: 10px;
+}
+.footer .you .email input{
+    width: 145px;
+    height: 38px;
+    border: 0;
+    float: left;
+    margin-left: 10px;
+}
+.footer .you .queding{
+    width: 92px;
+    height: 40px;
+    background: #9a9a9a;
+    float: left;
+    text-align: center;
+    margin-top: 20px;
+}
+.footer .you .queding:hover{
+    background: #e0e0e0;
+}
+.footer .you .queding a{
+    font-size: 12px;
+    line-height: 40px;
+    color: #fff;
+}
+.footer .you p{
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 110px;
+}
+.footer .you span{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #e4e4e4;
+    margin-top: 20px;
+    display: block;
+    background: #fff;
+}
+.footer .you span:hover{
+    background: #e0e0e0;
+}
+.footer .you span i{
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+    margin-left: 11px;
+    color: #000;
+}

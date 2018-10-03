@@ -1,0 +1,448 @@
+*{font-style: normal;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    list-style: none}
+body{
+    overflow-x:hidden;
+}
+.header{
+    width: 100%;
+    height: 52px;
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+.header .left{
+    width: 480px;
+    height: 100%;
+}
+.header .left a{
+    font-size: 12px;
+    text-align: center;
+    line-height: 56px;
+    margin-left: 1px;
+    color: #fff;
+    display: block;
+    float: left;
+    width: 48px;
+    height: 56px;
+}
+.header .left a:hover{
+    color: #e0e0e0;
+}
+.header .left a:nth-child(10){
+    background: #fff;
+    color: #000;
+}
+.header .left a:nth-child(11){
+    width: 80px;
+}
+.header span{
+    font-size: 12px;
+    text-align: center;
+    line-height: 56px;
+    margin-left: -1px;
+    margin-right: -8px;
+    color: #565656;
+    display: block;
+    float: left;
+}
+.header .left a i{
+    font-size: 16px;
+    margin-right: 6px;
+    color: #fff;
+}
+.header .right{
+    width: 230px;
+    height: 100%;
+    padding: 20px 12px;
+}
+.header .right a{
+    font-size: 12px;
+    text-align: center;
+    line-height: 56px;
+    margin-left: 18px;
+    color: #fff;
+}
+.header .right a:hover{
+    color: #e0e0e0;
+}
+.header1{
+    width: 100%;
+    height: 80px;
+}
+.header1 a i{
+    font-size: 110px;
+    line-height: 80px;
+    text-align: center;
+    color: #000;
+    display: block;
+}
+.header1 .sousuo{
+    width: 157px;
+    height: 40px;
+    border: 1px solid #e0e0e0;
+    margin-top: -61px;
+    margin-right: 4px;
+    float: right;
+
+}
+.header1 .sousuo input{
+    width: 116px;
+    height: 40px;
+    border:0;
+}
+.header1 .sousuo a i{
+    font-size: 20px;
+    color: #000;
+    line-height: 40px;
+    margin-right: 10px;
+    display: block;
+    float: right;
+}
+.nav{
+    width: 100%;
+    height: 52px;
+    margin: 20px auto;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+}
+.nav a{
+    font-size: 12px;
+    color: #000;
+    margin: 10px;
+}
+.nav a:hover{
+    color: #e0e0e0;
+}
+.main{
+    width: 1309px;
+    height: 483px;
+    margin:20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main .left{
+    width: 410px;
+    height: 100%;
+    background: #f6f6f6;
+    font-size: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section{
+    width: 1309px;
+    height: 1422px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.section .left{
+    width: 635px;
+    height: 100%;
+}
+.section .left h5{
+    font-size: 12px;
+    margin-top: 14px;
+    font-weight: 400;
+}
+.section .left h4{
+    font-size: 18px;
+    margin-top: 8px;
+    color: #000;
+    display: block;
+    font-weight: 400;
+}
+.section .left .fenge{
+    margin-top: 35px;
+}
+.section .right{
+    width: 635px;
+    height: 100%;
+}
+.section .right h5{
+    font-size: 12px;
+    margin-top: 14px;
+    font-weight: 400;
+}
+.section .right h4{
+    font-size: 18px;
+    margin-top: 8px;
+    color: #000;
+    display: block;
+    font-weight: 400;
+}
+.section .right .fenge{
+    margin-top: 35px;
+}
+.middle{
+    width: 100%;
+    height: 770px;
+    background:url("../picture/Diorwatch/bloc-nouveautes-produits_width_1600.jpg");
+    background-size: cover;
+    overflow: hidden;
+}
+.middle .wenzi{
+    width: 100%;
+    height: 222px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.middle .wenzi h1{
+    font-size: 12px;
+    font-weight: 400;
+
+}
+.middle .wenzi h2{
+    font-size: 46px;
+    margin-top: 20px;
+    font-weight: 400;
+}
+.middle .wenzi h3{
+    font-size: 14px;
+    margin-top: 40px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.middle .wenzi h3 span{
+    display: block;
+    width: 340px;
+    height: 19px;
+    font-size: 14px;
+}
+.middle .tiaokuaiall{
+    width: 1309px;
+    height: 448px;
+    margin: 30px auto;
+}
+.middle .tiaokuai{
+    width: 298px;
+    height: 100%;
+    margin-right: 39px;
+    float: left;
+    background: #fff;
+}
+.middle .tiaokuai:nth-child(4){
+    margin-right: 0;
+}
+.middle .tiaokuai img{
+    transition:  transform 0.8s;
+}
+.middle .tiaokuai img:hover{
+
+    transform: scale(1.05, 1.05);
+}
+.middle .tiaokuai p{
+    width: 218px;
+    height: 54px;
+    display: block;
+    margin-top: 33px;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-left: 39px;
+}
+.middle .tiaokuai .tansuo{
+    width: 66px;
+    height: 32px;
+    border: 1px solid #e0e0e0;
+    font-size: 12px;
+    text-align: center;
+    line-height: 32px;
+    color: #000;
+    margin-top: 20px;
+    margin-left: 39px;
+    transition: background 1s;
+}
+.middle .tiaokuai .tansuo:hover{
+    background: #e0e0e0;
+
+}
+.bottomall{
+    width: 1310px;
+    height: 330px;
+    margin: 60px auto;
+}
+.bottomall .bottom{
+    width: 410px;
+    height: 330px;
+    float: left;
+    margin-right: 40px;
+    transition: 0.8s;
+}
+.bottomall .bottom:hover{
+
+    box-shadow: 0 15px 15px rgba(75, 75, 75, 0.1);
+    transform: scale(0.95, 0.95);
+}
+.bottomall .bottom:nth-child(3){
+    margin-right: 0;
+}
+.bottomall .bottom .tu{
+    margin-top: 15px;
+}
+.bottomall .bottom h5{
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+.footer{
+    width: 100%;
+    height: 407px;
+    background: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer .zuo a:hover{
+    color: #e0e0e0;
+}
+.footer .zuo{
+    width: 300px;
+    height: 322px;
+}
+.footer .zuo h1{
+    font-weight: 400;
+    font-size: 16px;
+    /*margin-top: 6px;*/
+}
+.footer .zuo h2{
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 30px;
+}
+.footer .zuo h2 a{
+    color: #000;
+}
+.footer .zuo h3{
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 30px;
+}
+.footer .zuo select{
+    width: 273px;
+    height: 40px;
+    border: 0;
+    font-weight: 400;
+    font-size: 14px;
+    border: 1px solid #e0e0e0;
+    margin-top: 20px;
+}
+.footer .zuo ul{
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 30px;
+    line-height: 17px;
+}
+.footer .zuo ul a{
+    color: #000;
+}
+.footer .zuo ul a img{
+    margin-right: 2px;
+}
+.footer .zhong{
+    width: 300px;
+    height: 234px;
+}
+.footer .zhong a{
+    font-weight: 400;
+    font-size: 12px;
+    /*margin-top: 30px;*/
+    line-height: 36px;
+    color: #000;
+    display: block;
+}
+.footer .zhong a:hover{
+    color: #e0e0e0;
+}
+.footer .you{
+    width: 300px;
+    height: 357px;
+}
+.footer .you h1{
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 21px;
+}
+.footer .you h2{
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 30px;
+}
+.footer .you .email{
+    width: 206px;
+    height: 38px;
+    border: 1px solid #e0e0e0;
+    float: left;
+    margin-top: 20px;
+    background: #fff;
+}
+.footer .you .email i{
+    font-size: 25px;
+    line-height: 38px;
+    display: block;
+    float: left;
+    margin-left: 10px;
+}
+.footer .you .email input{
+    width: 145px;
+    height: 38px;
+    border: 0;
+    float: left;
+    margin-left: 10px;
+}
+.footer .you .queding{
+    width: 92px;
+    height: 40px;
+    background: #9a9a9a;
+    float: left;
+    text-align: center;
+    margin-top: 20px;
+    transition: background 1s;
+}
+.footer .you .queding:hover{
+    background: #e0e0e0;
+
+}
+.footer .you .queding a{
+    font-size: 12px;
+    line-height: 40px;
+    color: #fff;
+}
+.footer .you p{
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 110px;
+}
+.footer .you span{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #e4e4e4;
+    margin-top: 20px;
+    display: block;
+    background: #fff;
+}
+.footer .you span:hover{
+    background: #e0e0e0;
+}
+.footer .you span i{
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+    margin-left: 11px;
+    color: #000;
+}

@@ -1,0 +1,561 @@
+*{font-style: normal;
+text-decoration: none;
+margin: 0;
+padding: 0;
+list-style: none}
+.header{
+    width: 100%;
+    height: 56px;
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+.header .left{
+    width: 480px;
+    height: 100%;
+}
+.header .left a{
+    font-size: 12px;
+    text-align: center;
+    line-height: 56px;
+    margin-left: 18px;
+    color: #fff;
+}
+.header span{
+    font-size: 12px;
+    text-align: center;
+    line-height: 56px;
+    margin-left: 6px;
+    margin-right: -12px;
+    color: #565656;
+}
+.header .left a i{
+    font-size: 16px;
+    margin-right: 6px;
+    color: #fff;
+}
+.header .left a:hover{
+    color: #e0e0e0;
+}
+.header .right{
+    width: 230px;
+    height: 100%;
+    padding: 20px 12px;
+}
+.header .right a{
+    font-size: 12px;
+    text-align: center;
+    line-height: 56px;
+    margin-left: 18px;
+    color: #fff;
+}
+.header .right a:hover{
+    color: #e0e0e0;
+}
+.header1{
+    width: 100%;
+    height: 80px;
+}
+.header1 a i{
+    font-size: 110px;
+    line-height: 80px;
+    text-align: center;
+    color: #000;
+    display: block;
+}
+.header1 .sousuo{
+    width: 157px;
+    height: 40px;
+    border: 1px solid #e0e0e0;
+    margin-top: -61px;
+    margin-right: 4px;
+    float: right;
+
+}
+.header1 .sousuo input{
+    width: 116px;
+    height: 40px;
+    border:0;
+}
+.header1 .sousuo a i{
+    font-size: 20px;
+    color: #000;
+    line-height: 40px;
+    margin-right: 10px;
+    display: block;
+    float: right;
+}
+.banner{
+    width: 1310px;
+    height: 543px;
+    margin: 0 auto;
+    position: relative;
+}
+.banner:hover .zuojiantou{
+    display: block;
+}
+.banner:hover .youjiantou{
+    display: block;
+}
+.banner img{
+    position: absolute;
+    left: 0;
+    top:0;
+}
+.banner .zuojiantou{
+    width: 50px;
+    height: 30px;
+    position:absolute ;
+    left: 10px;
+    top: 255px;
+    display: none;
+    z-index: 999;
+}
+.banner .zuojiantou i{
+    font-size: 30px;
+    color: #000;
+    text-align: center;
+    line-height: 30px;
+}
+.banner .youjiantou{
+    width: 50px;
+    height: 30px;
+    position:absolute ;
+    right: 10px;
+    top: 255px;
+    display: none;
+    z-index: 999;
+}
+.banner .youjiantou i{
+    font-size: 30px;
+    color: #000;
+    text-align: center;
+    line-height: 30px;
+    float: right;
+}
+.banner .juxing{
+    width: 120px;
+    height: 20px;
+    position: absolute;
+    right: 595px;
+    bottom: 25px;
+    z-index: 999;
+}
+.banner .juxing .dot{
+    width:10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid #d0d0d0;
+    float: left;
+    margin-right: 10px;
+}
+.hot{
+    background: #d0d0d0;
+}
+.sectionall{
+    width: 1310px;
+    height: 1330px;
+    margin: 40px auto;
+}
+.sectionall .section{
+    width: 410px;
+    height: 645px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    float: left;
+    transition: box-shadow 0.3s;
+}
+.sectionall .section img{
+    transition: transform 0.8s;
+}
+.sectionall .section img:hover{
+
+    box-shadow: 0 15px 15px rgba(75, 75, 75, 0.1);
+    transform: translate(0, -5px);
+}
+
+.sectionall .section:nth-child(3n){
+    margin-right: 0px;
+}
+/*.sectionall .section:nth-child(6){*/
+    /*margin-right: 0px;*/
+/*}*/
+.sectionall .section .top{
+    width: 100%;
+    height: 272px;
+    display: flex;
+    background: #f6f6f6;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sectionall .section .top h1{
+    font-weight: 400;
+    font-size: 28px;
+    margin-top: 4px;
+}
+.sectionall .section .top hr{
+    width: 22px;
+    background: #777777;
+    border:none;
+    height: 1px;
+    margin-top: 15px;
+}
+.sectionall .section .top h2{
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 24px;
+}
+.sectionall .section .top h3{
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 24px;
+}
+.sectionall .section .top h4{
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 22px;
+}
+.sectionall .section .middle{
+    width: 408px;
+    height: 270px;
+    border: 1px solid #e0e0e0;
+    margin-top: 40px;
+}
+.sectionall .section .down{
+    width: 100%;
+    height: 73px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.sectionall .section .down span{
+    width: 248px;
+    height: 32px;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+}
+.sectionall .section .down .tansuo{
+    width: 66px;
+    height: 32px;
+    background: #000;
+    font-size: 12px;
+    text-align: center;
+    line-height: 32px;
+    color: #fff;
+}
+.sectionall .section .down .tansuo:hover{
+    background: #d0d0d0;
+    transition: background 0.8s;
+}
+.sectionall .section h6{
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 14px;
+}
+.sectionall .section h5{
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 6px;
+}
+
+
+
+
+
+.sectionall .section .down4{
+    width: 100%;
+    height: 73px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 16px;
+
+}
+.sectionall .section .down4 .kuai{
+    width: 248px;
+    height: 78px;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 300;
+}
+.sectionall .section .down4 .kuai h4{
+    font-weight: 400;
+    font-size: 14px;
+}
+.sectionall .section .down4 .kuai h5{
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.sectionall .section .down4 .kuai h6{
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.sectionall .section .down4 .gouwuche{
+    width: 90px;
+    height: 32px;
+    background: #000;
+    font-size: 12px;
+    text-align: center;
+    line-height: 32px;
+    color: #fff;
+    transition: background 0.8s;
+}
+.sectionall .section .down4 .gouwuche:hover{
+    background: #e0e0e0;
+
+}
+.mainall{
+    width: 1310px;
+    height: 338px;
+    margin: 20px auto;
+}
+.mainall .main{
+    width: 410px;
+    height: 100%;
+    margin-right: 40px;
+    float: left;
+}
+.mainall .main:nth-child(3){
+    margin-right: 0;
+}
+.mainall .main img{
+    transition:  1s;
+    display: block;
+}
+.mainall .main img:hover{
+
+    box-shadow: 0 15px 15px rgba(75, 75, 75, 0.1);
+    transform: scale(0.95, 0.95);
+}
+.mainall .main .top{
+    width: 100%;
+    height: 338px;
+    display: flex;
+    background: #f6f6f6;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mainall .main .top h1{
+    font-weight: 400;
+    font-size: 26px;
+    margin-top: 4px;
+}
+.mainall .main .top hr{
+    width: 22px;
+    background: #777777;
+    border:none;
+    height: 1px;
+    margin-top: 15px;
+}
+.mainall .main .top h2{
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 26px;
+}
+.mainall .main .top h3{
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 24px;
+}
+.mainall .main h5{
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 14px;
+}
+.mainall .main h4{
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 6px;
+    text-transform: uppercase;
+}
+hr{
+    width: 1310px;
+    background: #e0e0e0;
+    border:0;
+    height: 1px;
+    margin: 40px auto;
+}
+.bottomall{
+    width: 1310px;
+    height: 330px;
+    margin: 40px auto;
+}
+.bottomall .bottom{
+    width: 410px;
+    height: 330px;
+    float: left;
+    margin-right: 40px;
+}
+.bottomall .bottom:hover{
+    transition: transform 0.8s;
+    box-shadow: 0 15px 15px rgba(75, 75, 75, 0.1);
+    transform: scale(0.95, 0.95);
+}
+.bottomall .bottom:nth-child(3){
+    margin-right: 0;
+}
+
+.bottomall .bottom .tu{
+    margin-top: 15px;
+}
+.bottomall .bottom h5{
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+.footer{
+    width: 100%;
+    height: 407px;
+    background: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer .zuo a:hover{
+    color: #e0e0e0;
+}
+.footer .zuo{
+    width: 300px;
+    height: 322px;
+}
+.footer .zuo h1{
+    font-weight: 400;
+    font-size: 16px;
+    /*margin-top: 6px;*/
+}
+.footer .zuo h2{
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 30px;
+}
+.footer .zuo h2 a{
+    color: #000;
+}
+.footer .zuo h3{
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 30px;
+}
+.footer .zuo select{
+    width: 273px;
+    height: 40px;
+    border: 0;
+    font-weight: 400;
+    font-size: 14px;
+    border: 1px solid #e0e0e0;
+    margin-top: 20px;
+}
+.footer .zuo ul{
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 30px;
+    line-height: 17px;
+}
+.footer .zuo ul a{
+    color: #000;
+}
+.footer .zuo ul a img{
+    margin-right: 2px;
+}
+.footer .zhong{
+    width: 300px;
+    height: 234px;
+}
+.footer .zhong a{
+    font-weight: 400;
+    font-size: 12px;
+    /*margin-top: 30px;*/
+    line-height: 36px;
+    color: #000;
+    display: block;
+}
+.footer .zhong a:hover{
+    color: #e0e0e0;
+    transition: background 0.8s;
+}
+.footer .you{
+    width: 300px;
+    height: 357px;
+}
+.footer .you h1{
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 21px;
+}
+.footer .you h2{
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 30px;
+}
+.footer .you .email{
+    width: 206px;
+    height: 38px;
+    border: 1px solid #e0e0e0;
+    float: left;
+    margin-top: 20px;
+    background: #fff;
+}
+.footer .you .email i{
+    font-size: 25px;
+    line-height: 38px;
+    display: block;
+    float: left;
+    margin-left: 10px;
+}
+.footer .you .email input{
+    width: 145px;
+    height: 38px;
+    border: 0;
+    float: left;
+    margin-left: 10px;
+}
+.footer .you .queding{
+    width: 92px;
+    height: 40px;
+    background: #9a9a9a;
+    float: left;
+    text-align: center;
+    margin-top: 20px;
+}
+.footer .you .queding:hover{
+    background: #e0e0e0;
+    transition: background 0.8s;
+}
+.footer .you .queding a{
+    font-size: 12px;
+    line-height: 40px;
+    color: #fff;
+}
+.footer .you p{
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 110px;
+}
+.footer .you span{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #e4e4e4;
+    margin-top: 20px;
+    display: block;
+    background: #fff;
+}
+.footer .you span:hover{
+    background: #e0e0e0;
+}
+.footer .you span i{
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+    margin-left: 11px;
+    color: #000;
+}
